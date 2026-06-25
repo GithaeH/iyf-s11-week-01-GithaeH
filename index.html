@@ -46,6 +46,41 @@
     </section>
     </main> 
     <footer>
+        <section>
+            <form action="#" method="post">
+                <fieldset>
+                    <legend><b>Contact Information</b></legend>
+                    <label for="fullname">Full Name</label>
+                    <input type="text" id="fullname" name="fullname" placeholder="e.g Jane Doe" required>
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" placeholder="e.g jane.doe@example.com" required>
+                    <label for="phone">Phone</label>
+                    <input type="tel" id="phone" name="phone" placeholder="e.g +1 234 567 890">
+                </fieldset>
+                <fieldset>
+                    <legend><b>Message Details</b></legend>
+                    <label for="subject">Subject</label>
+                    <select id="subject" name="subject" required>
+                        <option value="">Select a subject</option>
+                        <option value="project">Project Inquiry</option>
+                        <option value="collaboration">Collaboration</option>
+                        <option value="general">General Message</option>
+                    </select>
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" placeholder="Max - 200 wrds" minlength="50" required></textarea>
+                </fieldset>
+                <fieldset>
+                    <legend><b>Newsletter</b></legend>
+                    <label>
+                        <input type="checkbox" name="newsletter">
+                        Subscribe to my newsletter
+                    </label>
+                </fieldset>
+                <br>
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+        <br>
         <address>
         Githae<br>
         Nairobi, Kenya<br>
