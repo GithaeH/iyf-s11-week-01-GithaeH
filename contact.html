@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Page. </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <Main>
+        <header>
+             <h1>Contact Me</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+        <br>
+        <br>
+        <section>
+            <form action="#" method="post">
+                <fieldset>
+                    <legend><b>Contact Information</b></legend>
+                    <label for="fullname">Full Name</label>
+                    <input type="text" id="fullname" name="fullname" placeholder="e.g Jane Doe" required>
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" placeholder="e.g jane.doe@example.com" required>
+                    <label for="phone">Phone</label>
+                    <input type="tel" id="phone" name="phone" placeholder="e.g +1 234 567 890">
+                </fieldset>
+                <fieldset>
+                    <legend><b>Message Details</b></legend>
+                    <label for="subject">Subject</label>
+                    <select id="subject" name="subject" required>
+                        <option value="">Select a subject</option>
+                        <option value="project">Project Inquiry</option>
+                        <option value="collaboration">Collaboration</option>
+                        <option value="general">General Message</option>
+                    </select>
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" placeholder="Max - 200 wrds" minlength="50" required></textarea>
+                </fieldset>
+                <fieldset>
+                    <legend><b>Newsletter</b></legend>
+                    <label>
+                        <input type="checkbox" name="newsletter">
+                        Subscribe to my newsletter
+                    </label>
+                </fieldset>
+                <br>
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+    </Main>
+    <footer>
+        <address>
+        Githae<br>
+        Nairobi, Kenya<br>
+        </address>
+        <p>
+        Contact:
+        <a href="mailto:githae@hotmail.com">Email Me</a> |
+        <a href="tel:+254712345678">Call Me</a> |
+        <a href="contact.html">Get in Touch with The Team</a> |
+        </p>
+        <p>
+        Follow me:
+        <a href="https://github.com/yourusername" target="_blank">GitHub</a> |
+        <a href="https://www.linkedin.com/in/yourusername/" target="_blank">LinkedIn</a> |
+        <a href="https://x.com/yourusername" target="_blank">X</a>
+        </p>
+        <p>&copy; 2025 Githae. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
